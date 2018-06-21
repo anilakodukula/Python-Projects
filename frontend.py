@@ -1,7 +1,7 @@
 from tkinter import *
 from backend import Database # connecting the backend to the frontend
 
-db1=Database("books.db") # importing the existing books database file
+    db1=Database("books.db") # importing the existing books database file
 
 # returns list object with tuple that consists of id, title, author, year, isbn. Also gets an index of the list from the list box.
 def get_selected_row(event):
